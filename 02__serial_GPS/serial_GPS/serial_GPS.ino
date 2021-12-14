@@ -1,7 +1,7 @@
 #include <HardwareSerial.h>
 #include <TinyGPS.h>
 
-//hot start around 2 min
+//hot start around 2-3 min
 
 HardwareSerial tty(2); 
 TinyGPS gps;
@@ -12,15 +12,13 @@ void setup(void) {
   Serial.println("Fun begins:");
 }
   
-
-    
-void loop(void) {
 float flat, flon;
 unsigned long age, _date, _time, _age;  
-  //if (tty.available()) Serial.write(tty.read());
-   // while (tty.available() >0) {
+    
+void loop(void) {  
    if (tty.available()){
        gps.encode(tty.read());
+       Serial.write(tty.read());
     }
     
     gps.f_get_position(&flat, &flon, &age);
@@ -31,5 +29,5 @@ unsigned long age, _date, _time, _age;
     Serial.print(",  Date:"); Serial.print(_date);
     Serial.print(",  Time:"); Serial.print(_time);
     Serial.print(",  N of sats:");  Serial.println(gps.satellites() == TinyGPS::GPS_INVALID_SATELLITES ? 0 : gps.satellites());
-    delay(1000);
+    delay(1000); 
 }
