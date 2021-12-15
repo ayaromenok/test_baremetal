@@ -27,19 +27,7 @@ float flat_old=0, flon_old=0;
 unsigned long age, _date, _time, _age;  
 
 void loop() {
-/*            
-  oled.putFloat(lNum,6);          
-  oled.putString(" LED oN ");
-  lNum++;
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000);
-  oled.putFloat(lNum,6);          
-  oled.putString(" LED oFF");
-  lNum++;
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000); 
-  */
-   
+  
    if (tty.available()){
        gps.encode(tty.read());       
     }
@@ -79,7 +67,8 @@ void loop() {
       Serial.print(", age: "); Serial.print(age);
       Serial.print(", "); Serial.println(_age);
       count++;    
-    } else {
+    } 
+/*    else {
       delay(100);
       if (count_col>=100){
         Serial.println('.');
@@ -88,5 +77,6 @@ void loop() {
         Serial.print('.');
       }
       count_col++;
-    }   
+    }   //if
+    */
 }
