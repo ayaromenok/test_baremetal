@@ -15,7 +15,10 @@ echo "dxf/*.dxf~" > .gitignore
 NAME=${1##*__}
 FNAME=$NAME".ino"
 echo $FNAME
+mkdir $NAME
+cd $NAME
 echo -e "void setup() {\n  pinMode(LED_BUILTIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);\n  delay(1000);\n  digitalWrite(LED_BUILTIN, LOW);\n  delay(1000); \n}\n" > $FNAME
+cd ..
 echo -e "## main/readme" > readme.md
 cd ..
 ISSUE_NUM=$(echo $1| cut -d'_' -f 1)
