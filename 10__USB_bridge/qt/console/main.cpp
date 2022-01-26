@@ -13,12 +13,25 @@ int main(int argc, char *argv[])
     }
     if (infos.length() > 0){
         QSerialPort serial(infos.at(0));
-        serial.setBaudRate(115200);
+        serial.setBaudRate(115200); //test autosetup
         if(!serial.open(QIODevice::ReadWrite)){
            qErrnoWarning("Can't open serial port");
            return -1;
         }
+
         qWarning() << serial.portName() << "open";
+        int numRead = 0, numReadTotal = 0;
+        char buffer[140];
+        for (;;) {
+            numRead  = serial.read(buffer, 140);
+
+            qWarning()<<"read:" << &buffer[0];
+
+            numReadTotal += numRead;
+            if (numRead == 0 && !serial.waitForReadyRead())
+                break;
+        }
+        serial.close();
     }else{
         qWarning() << "No serial port found";
     }
