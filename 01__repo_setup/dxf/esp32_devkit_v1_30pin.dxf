@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
--28.60089290451447
+26.78823529411764
  22
--5.525567401965736
+13.88635794743429
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-4.309247533608499
+28.29086357947434
  41
-1.580645161290323
+2.528693528693529
  42
 50
  43
@@ -2337,6 +2337,34 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
+STANDARD
+ 70
+    0
+ 40
+0
+ 41
+1
+ 50
+0
+ 71
+    0
+ 42
+1
+  3
+STANDARD
+  4
+
+  0
+STYLE
+  5
+4E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
 standard
  70
     0
@@ -2413,7 +2441,7 @@ ACAD
   0
 APPID
   5
-4E
+4F
 330
 9
 100
@@ -2445,7 +2473,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-4F
+50
 330
 A
 100
@@ -2719,7 +2747,7 @@ ENTITIES
   0
 MTEXT
   5
-50
+51
 100
 AcDbEntity
   8
@@ -2765,7 +2793,7 @@ standard
   0
 LWPOLYLINE
   5
-51
+52
 100
 AcDbEntity
   8
@@ -2803,7 +2831,7 @@ AcDbPolyline
   0
 MTEXT
   5
-52
+53
 100
 AcDbEntity
   8
@@ -2849,7 +2877,7 @@ standard
   0
 MTEXT
   5
-53
+54
 100
 AcDbEntity
   8
@@ -2895,7 +2923,7 @@ standard
   0
 MTEXT
   5
-54
+55
 100
 AcDbEntity
   8
@@ -2941,7 +2969,7 @@ standard
   0
 MTEXT
   5
-55
+56
 100
 AcDbEntity
   8
@@ -2987,7 +3015,7 @@ standard
   0
 MTEXT
   5
-56
+57
 100
 AcDbEntity
   8
@@ -3033,44 +3061,6 @@ standard
   0
 LWPOLYLINE
   5
-57
-100
-AcDbEntity
-  8
-Sensor
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-29.8
- 20
-11.3
- 10
-32.5
- 20
-11.3
- 10
-32.5
- 20
-12.7
- 10
-29.8
- 20
-12.7
-  0
-LWPOLYLINE
-  5
 58
 100
 AcDbEntity
@@ -3093,19 +3083,19 @@ AcDbPolyline
  10
 29.8
  20
-12.8
+11.3
  10
 32.5
  20
-12.8
+11.3
  10
 32.5
  20
-14.2
+12.7
  10
 29.8
  20
-14.2
+12.7
   0
 LWPOLYLINE
   5
@@ -3131,19 +3121,19 @@ AcDbPolyline
  10
 29.8
  20
-14.3
+12.8
  10
 32.5
  20
-14.3
+12.8
  10
 32.5
  20
-15.7
+14.2
  10
 29.8
  20
-15.7
+14.2
   0
 LWPOLYLINE
   5
@@ -3169,19 +3159,19 @@ AcDbPolyline
  10
 29.8
  20
-15.8
+14.3
  10
 32.5
  20
-15.8
+14.3
  10
 32.5
  20
-17.2
+15.7
  10
 29.8
  20
-17.2
+15.7
   0
 LWPOLYLINE
   5
@@ -3207,6 +3197,44 @@ AcDbPolyline
  10
 29.8
  20
+15.8
+ 10
+32.5
+ 20
+15.8
+ 10
+32.5
+ 20
+17.2
+ 10
+29.8
+ 20
+17.2
+  0
+LWPOLYLINE
+  5
+5C
+100
+AcDbEntity
+  8
+Sensor
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+29.8
+ 20
 17.3
  10
 32.5
@@ -3223,7 +3251,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-5C
+5D
 100
 AcDbEntity
   8
@@ -3261,7 +3289,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-5D
+5E
 100
 AcDbEntity
   8
@@ -3299,7 +3327,7 @@ AcDbPolyline
   0
 MTEXT
   5
-5E
+5F
 100
 AcDbEntity
   8
@@ -3345,7 +3373,7 @@ standard
   0
 MTEXT
   5
-5F
+60
 100
 AcDbEntity
   8
@@ -3375,7 +3403,7 @@ AcDbMText
   1
 Sensor
   7
-
+STANDARD
 210
 0
 220
@@ -3391,7 +3419,7 @@ Sensor
   0
 LWPOLYLINE
   5
-60
+61
 100
 AcDbEntity
   8
@@ -3429,7 +3457,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-61
+62
 100
 AcDbEntity
   8
@@ -3467,7 +3495,7 @@ AcDbPolyline
   0
 MTEXT
   5
-62
+63
 100
 AcDbEntity
   8
@@ -3513,7 +3541,7 @@ standard
   0
 MTEXT
   5
-63
+64
 100
 AcDbEntity
   8
@@ -3559,7 +3587,7 @@ standard
   0
 MTEXT
   5
-64
+65
 100
 AcDbEntity
   8
@@ -3589,7 +3617,7 @@ AcDbMText
   1
 CS0
   7
-
+STANDARD
 210
 0
 220
@@ -3605,7 +3633,7 @@ CS0
   0
 MTEXT
   5
-65
+66
 100
 AcDbEntity
   8
@@ -3635,7 +3663,7 @@ AcDbMText
   1
 WP0
   7
-
+STANDARD
 210
 0
 220
@@ -3648,44 +3676,6 @@ WP0
     2
  44
 1
-  0
-LWPOLYLINE
-  5
-66
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-13.29999999999999
- 20
-5.9
- 10
-15.99999999999999
- 20
-5.9
- 10
-15.99999999999999
- 20
-7.300000000000001
- 10
-13.29999999999999
- 20
-7.300000000000001
   0
 LWPOLYLINE
   5
@@ -3709,21 +3699,21 @@ AcDbPolyline
  43
 0
  10
-13.3
+13.29999999999999
  20
-7.4
+5.9
  10
-16
+15.99999999999999
  20
-7.4
+5.9
  10
-16
+15.99999999999999
  20
-8.800000000000001
+7.300000000000001
  10
-13.3
+13.29999999999999
  20
-8.800000000000001
+7.300000000000001
   0
 LWPOLYLINE
   5
@@ -3749,19 +3739,19 @@ AcDbPolyline
  10
 13.3
  20
-8.9
+7.4
  10
 16
  20
-8.9
+7.4
  10
 16
  20
-10.3
+8.800000000000001
  10
 13.3
  20
-10.3
+8.800000000000001
   0
 LWPOLYLINE
   5
@@ -3787,6 +3777,44 @@ AcDbPolyline
  10
 13.3
  20
+8.9
+ 10
+16
+ 20
+8.9
+ 10
+16
+ 20
+10.3
+ 10
+13.3
+ 20
+10.3
+  0
+LWPOLYLINE
+  5
+6A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+13.3
+ 20
 10.4
  10
 16
@@ -3803,7 +3831,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-6A
+6B
 100
 AcDbEntity
   8
@@ -3841,7 +3869,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-6B
+6C
 100
 AcDbEntity
   8
@@ -3879,7 +3907,7 @@ AcDbPolyline
   0
 MTEXT
   5
-6C
+6D
 100
 AcDbEntity
   8
@@ -3925,7 +3953,7 @@ standard
   0
 MTEXT
   5
-6D
+6E
 100
 AcDbEntity
   8
@@ -3971,7 +3999,7 @@ standard
   0
 MTEXT
   5
-6E
+6F
 100
 AcDbEntity
   8
@@ -4017,7 +4045,7 @@ standard
   0
 MTEXT
   5
-6F
+70
 100
 AcDbEntity
   8
@@ -4063,7 +4091,7 @@ standard
   0
 MTEXT
   5
-70
+71
 100
 AcDbEntity
   8
@@ -4109,7 +4137,7 @@ standard
   0
 MTEXT
   5
-71
+72
 100
 AcDbEntity
   8
@@ -4155,7 +4183,7 @@ standard
   0
 MTEXT
   5
-72
+73
 100
 AcDbEntity
   8
@@ -4201,7 +4229,7 @@ standard
   0
 MTEXT
   5
-73
+74
 100
 AcDbEntity
   8
@@ -4247,7 +4275,7 @@ standard
   0
 MTEXT
   5
-74
+75
 100
 AcDbEntity
   8
@@ -4293,7 +4321,7 @@ standard
   0
 MTEXT
   5
-75
+76
 100
 AcDbEntity
   8
@@ -4339,7 +4367,7 @@ standard
   0
 MTEXT
   5
-76
+77
 100
 AcDbEntity
   8
@@ -4385,7 +4413,7 @@ standard
   0
 MTEXT
   5
-77
+78
 100
 AcDbEntity
   8
@@ -4415,7 +4443,7 @@ AcDbMText
   1
 HD
   7
-
+STANDARD
 210
 0
 220
@@ -4428,44 +4456,6 @@ HD
     2
  44
 1
-  0
-LWPOLYLINE
-  5
-78
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-13.30000000000001
- 20
-14.9
- 10
-16.00000000000001
- 20
-14.9
- 10
-16.00000000000001
- 20
-16.3
- 10
-13.30000000000001
- 20
-16.3
   0
 LWPOLYLINE
   5
@@ -4491,19 +4481,19 @@ AcDbPolyline
  10
 13.30000000000001
  20
-16.4
+14.9
  10
 16.00000000000001
  20
-16.4
+14.9
  10
 16.00000000000001
  20
-17.8
+16.3
  10
 13.30000000000001
  20
-17.8
+16.3
   0
 LWPOLYLINE
   5
@@ -4529,6 +4519,44 @@ AcDbPolyline
  10
 13.30000000000001
  20
+16.4
+ 10
+16.00000000000001
+ 20
+16.4
+ 10
+16.00000000000001
+ 20
+17.8
+ 10
+13.30000000000001
+ 20
+17.8
+  0
+LWPOLYLINE
+  5
+7B
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+13.30000000000001
+ 20
 17.9
  10
 16.00000000000001
@@ -4545,7 +4573,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-7B
+7C
 100
 AcDbEntity
   8
@@ -4583,7 +4611,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-7C
+7D
 100
 AcDbEntity
   8
@@ -4621,7 +4649,7 @@ AcDbPolyline
   0
 MTEXT
   5
-7D
+7E
 100
 AcDbEntity
   8
@@ -4667,7 +4695,7 @@ standard
   0
 MTEXT
   5
-7E
+7F
 100
 AcDbEntity
   8
@@ -4713,7 +4741,7 @@ standard
   0
 MTEXT
   5
-7F
+80
 100
 AcDbEntity
   8
@@ -4759,7 +4787,7 @@ standard
   0
 MTEXT
   5
-80
+81
 100
 AcDbEntity
   8
@@ -4805,7 +4833,7 @@ standard
   0
 MTEXT
   5
-81
+82
 100
 AcDbEntity
   8
@@ -4851,7 +4879,7 @@ standard
   0
 MTEXT
   5
-82
+83
 100
 AcDbEntity
   8
@@ -4897,7 +4925,7 @@ standard
   0
 MTEXT
   5
-83
+84
 100
 AcDbEntity
   8
@@ -4943,7 +4971,7 @@ standard
   0
 MTEXT
   5
-84
+85
 100
 AcDbEntity
   8
@@ -4989,7 +5017,7 @@ standard
   0
 MTEXT
   5
-85
+86
 100
 AcDbEntity
   8
@@ -5019,53 +5047,7 @@ AcDbMText
   1
 VSPI
   7
-
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-86
-100
-AcDbEntity
-  8
-esp32_alt_names
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-10.7
- 20
-20.5
- 30
-0
- 40
-1
- 41
-2.111110899108962
- 71
-    1
- 72
-    1
-  1
-SCL
-  7
-
+STANDARD
 210
 0
 220
@@ -5097,6 +5079,52 @@ AcDbMText
  10
 10.7
  20
+20.5
+ 30
+0
+ 40
+1
+ 41
+2.111110899108962
+ 71
+    1
+ 72
+    1
+  1
+SCL
+  7
+STANDARD
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+88
+100
+AcDbEntity
+  8
+esp32_alt_names
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+10.7
+ 20
 16.1
  30
 0
@@ -5111,7 +5139,7 @@ AcDbMText
   1
 SDA
   7
-
+STANDARD
 210
 0
 220
@@ -5127,7 +5155,7 @@ SDA
   0
 LWPOLYLINE
   5
-88
+89
 100
 AcDbEntity
   8
@@ -5165,7 +5193,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-89
+8A
 100
 AcDbEntity
   8
@@ -5203,7 +5231,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8A
+8B
 100
 AcDbEntity
   8
@@ -5233,7 +5261,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -5249,7 +5277,7 @@ GND
   0
 MTEXT
   5
-8B
+8C
 100
 AcDbEntity
   8
@@ -5279,7 +5307,7 @@ AcDbMText
   1
 3V3
   7
-
+STANDARD
 210
 0
 220
@@ -5295,7 +5323,7 @@ AcDbMText
   0
 LWPOLYLINE
   5
-8C
+8D
 100
 AcDbEntity
   8
@@ -5333,7 +5361,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8D
+8E
 100
 AcDbEntity
   8
@@ -5363,7 +5391,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -5379,7 +5407,7 @@ GND
   0
 LWPOLYLINE
   5
-8E
+8F
 100
 AcDbEntity
   8
@@ -5417,7 +5445,7 @@ AcDbPolyline
   0
 MTEXT
   5
-8F
+90
 100
 AcDbEntity
   8
@@ -5447,53 +5475,7 @@ AcDbMText
   1
 G13
   7
-
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-90
-100
-AcDbEntity
-  8
-esp32_alt_names
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-9.436895709313831e-16
- 20
-4.200000000000001
- 30
-0
- 40
-1
- 41
-2.777777565775628
- 71
-    1
- 72
-    1
-  1
-MOSI
-  7
-
+STANDARD
 210
 0
 220
@@ -5523,6 +5505,52 @@ ByLayer
 100
 AcDbMText
  10
+9.436895709313831e-16
+ 20
+4.200000000000001
+ 30
+0
+ 40
+1
+ 41
+2.777777565775628
+ 71
+    1
+ 72
+    1
+  1
+MOSI
+  7
+STANDARD
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+92
+100
+AcDbEntity
+  8
+esp32_alt_names
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
 3.3
  20
 3
@@ -5539,7 +5567,7 @@ AcDbMText
   1
 HSPI
   7
-
+STANDARD
 210
 0
 220
@@ -5552,44 +5580,6 @@ HSPI
     2
  44
 1
-  0
-LWPOLYLINE
-  5
-92
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
--6
- 20
-4.499999999999998
- 10
--3.3
- 20
-4.499999999999998
- 10
--3.3
- 20
-5.9
- 10
--6
- 20
-5.9
   0
 LWPOLYLINE
   5
@@ -5615,19 +5605,19 @@ AcDbPolyline
  10
 -6
  20
-5.999999999999998
+4.499999999999998
  10
 -3.3
  20
-5.999999999999998
+4.499999999999998
  10
 -3.3
  20
-7.4
+5.9
  10
 -6
  20
-7.4
+5.9
   0
 LWPOLYLINE
   5
@@ -5653,19 +5643,19 @@ AcDbPolyline
  10
 -6
  20
-7.499999999999998
+5.999999999999998
  10
 -3.3
  20
-7.499999999999998
+5.999999999999998
  10
 -3.3
  20
-8.899999999999999
+7.4
  10
 -6
  20
-8.899999999999999
+7.4
   0
 LWPOLYLINE
   5
@@ -5691,19 +5681,19 @@ AcDbPolyline
  10
 -6
  20
-9
+7.499999999999998
  10
 -3.3
  20
-9
+7.499999999999998
  10
 -3.3
  20
-10.4
+8.899999999999999
  10
 -6
  20
-10.4
+8.899999999999999
   0
 LWPOLYLINE
   5
@@ -5729,19 +5719,19 @@ AcDbPolyline
  10
 -6
  20
-10.5
+9
  10
 -3.3
  20
-10.5
+9
  10
 -3.3
  20
-11.9
+10.4
  10
 -6
  20
-11.9
+10.4
   0
 LWPOLYLINE
   5
@@ -5767,19 +5757,19 @@ AcDbPolyline
  10
 -6
  20
-12
+10.5
  10
 -3.3
  20
-12
+10.5
  10
 -3.3
  20
-13.4
+11.9
  10
 -6
  20
-13.4
+11.9
   0
 LWPOLYLINE
   5
@@ -5805,19 +5795,19 @@ AcDbPolyline
  10
 -6
  20
-13.5
+12
  10
 -3.3
  20
-13.5
+12
  10
 -3.3
  20
-14.9
+13.4
  10
 -6
  20
-14.9
+13.4
   0
 LWPOLYLINE
   5
@@ -5843,19 +5833,19 @@ AcDbPolyline
  10
 -6
  20
-15
+13.5
  10
 -3.3
  20
-15
+13.5
  10
 -3.3
  20
-16.4
+14.9
  10
 -6
  20
-16.4
+14.9
   0
 LWPOLYLINE
   5
@@ -5881,19 +5871,19 @@ AcDbPolyline
  10
 -6
  20
-16.5
+15
  10
 -3.3
  20
-16.5
+15
  10
 -3.3
  20
-17.9
+16.4
  10
 -6
  20
-17.9
+16.4
   0
 LWPOLYLINE
   5
@@ -5919,6 +5909,44 @@ AcDbPolyline
  10
 -6
  20
+16.5
+ 10
+-3.3
+ 20
+16.5
+ 10
+-3.3
+ 20
+17.9
+ 10
+-6
+ 20
+17.9
+  0
+LWPOLYLINE
+  5
+9C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+-6
+ 20
 18
  10
 -3.3
@@ -5935,7 +5963,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-9C
+9D
 100
 AcDbEntity
   8
@@ -5973,7 +6001,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-9D
+9E
 100
 AcDbEntity
   8
@@ -6011,7 +6039,7 @@ AcDbPolyline
   0
 MTEXT
   5
-9E
+9F
 100
 AcDbEntity
   8
@@ -6057,7 +6085,7 @@ standard
   0
 MTEXT
   5
-9F
+A0
 100
 AcDbEntity
   8
@@ -6103,7 +6131,7 @@ standard
   0
 MTEXT
   5
-A0
+A1
 100
 AcDbEntity
   8
@@ -6149,7 +6177,7 @@ standard
   0
 MTEXT
   5
-A1
+A2
 100
 AcDbEntity
   8
@@ -6195,7 +6223,7 @@ standard
   0
 MTEXT
   5
-A2
+A3
 100
 AcDbEntity
   8
@@ -6241,7 +6269,7 @@ standard
   0
 MTEXT
   5
-A3
+A4
 100
 AcDbEntity
   8
@@ -6287,7 +6315,7 @@ standard
   0
 MTEXT
   5
-A4
+A5
 100
 AcDbEntity
   8
@@ -6333,7 +6361,7 @@ standard
   0
 MTEXT
   5
-A5
+A6
 100
 AcDbEntity
   8
@@ -6379,7 +6407,7 @@ standard
   0
 MTEXT
   5
-A6
+A7
 100
 AcDbEntity
   8
@@ -6425,7 +6453,7 @@ standard
   0
 MTEXT
   5
-A7
+A8
 100
 AcDbEntity
   8
@@ -6471,7 +6499,7 @@ standard
   0
 MTEXT
   5
-A8
+A9
 100
 AcDbEntity
   8
@@ -6517,7 +6545,7 @@ standard
   0
 MTEXT
   5
-A9
+AA
 100
 AcDbEntity
   8
@@ -6563,7 +6591,7 @@ standard
   0
 MTEXT
   5
-AA
+AB
 100
 AcDbEntity
   8
@@ -6593,7 +6621,7 @@ AcDbMText
   1
 CLK
   7
-
+STANDARD
 210
 0
 220
@@ -6609,7 +6637,7 @@ CLK
   0
 MTEXT
   5
-AB
+AC
 100
 AcDbEntity
   8
@@ -6639,7 +6667,7 @@ AcDbMText
   1
 MISO
   7
-
+STANDARD
 210
 0
 220
@@ -6655,7 +6683,7 @@ MISO
   0
 LWPOLYLINE
   5
-AC
+AD
 100
 AcDbEntity
   8
@@ -6693,7 +6721,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-AD
+AE
 100
 AcDbEntity
   8
@@ -6731,7 +6759,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-AE
+AF
 100
 AcDbEntity
   8
@@ -6769,7 +6797,7 @@ AcDbPolyline
   0
 MTEXT
   5
-AF
+B0
 100
 AcDbEntity
   8
@@ -6815,7 +6843,7 @@ standard
   0
 MTEXT
   5
-B0
+B1
 100
 AcDbEntity
   8
@@ -6861,7 +6889,7 @@ standard
   0
 LWPOLYLINE
   5
-B1
+B2
 100
 AcDbEntity
   8
@@ -6899,7 +6927,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-B2
+B3
 100
 AcDbEntity
   8
@@ -6937,7 +6965,7 @@ AcDbPolyline
   0
 LINE
   5
-B3
+B4
 100
 AcDbEntity
   8
@@ -6961,7 +6989,7 @@ AcDbLine
   0
 LINE
   5
-B4
+B5
 100
 AcDbEntity
   8
@@ -6985,7 +7013,7 @@ AcDbLine
   0
 LINE
   5
-B5
+B6
 100
 AcDbEntity
   8

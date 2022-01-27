@@ -23,7 +23,7 @@ $INSBASE
   9
 $EXTMIN
  10
--9
+-7.200000000000001
  20
 -0.2000000000000001
  30
@@ -31,7 +31,7 @@ $EXTMIN
   9
 $EXTMAX
  10
-23
+6.9
  20
 30.1
  30
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-32.13406610787973
+19.56795994993742
  22
-26.53738292742401
+15.24480600750939
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-43.9165570141023
+31.05844806007509
  41
-2.525609756097561
+2.528693528693529
  42
 50
  43
@@ -2313,7 +2313,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-Standard
+STANDARD
  70
     0
  40
@@ -2327,7 +2327,7 @@ Standard
  42
 1
   3
-txt
+STANDARD
   4
 
   0
@@ -4245,7 +4245,7 @@ AcDbMText
   1
 5V0
   7
-
+STANDARD
 210
 0
 220
@@ -4291,7 +4291,7 @@ AcDbMText
   1
 5V0
   7
-
+STANDARD
 210
 0
 220
@@ -4337,7 +4337,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -4383,7 +4383,7 @@ AcDbMText
   1
 G14
   7
-
+STANDARD
 210
 0
 220
@@ -4429,7 +4429,7 @@ AcDbMText
   1
 G15
   7
-
+STANDARD
 210
 0
 220
@@ -4475,7 +4475,7 @@ AcDbMText
   1
 TX0
   7
-
+STANDARD
 210
 0
 220
@@ -4521,7 +4521,7 @@ AcDbMText
   1
 RX0
   7
-
+STANDARD
 210
 0
 220
@@ -4567,7 +4567,7 @@ AcDbMText
   1
 G18
   7
-
+STANDARD
 210
 0
 220
@@ -4613,7 +4613,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -4659,7 +4659,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -4705,7 +4705,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -4751,7 +4751,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -4797,7 +4797,7 @@ AcDbMText
   1
 G23
   7
-
+STANDARD
 210
 0
 220
@@ -4843,7 +4843,7 @@ AcDbMText
   1
 G24
   7
-
+STANDARD
 210
 0
 220
@@ -4889,7 +4889,7 @@ AcDbMText
   1
 G25
   7
-
+STANDARD
 210
 0
 220
@@ -4935,7 +4935,7 @@ AcDbMText
   1
 G08
   7
-
+STANDARD
 210
 0
 220
@@ -4981,7 +4981,7 @@ AcDbMText
   1
 G07
   7
-
+STANDARD
 210
 0
 220
@@ -5027,7 +5027,7 @@ AcDbMText
   1
 CE0
   7
-
+STANDARD
 210
 0
 220
@@ -5073,7 +5073,7 @@ AcDbMText
   1
 CE1\P
   7
-
+STANDARD
 210
 0
 220
@@ -5119,7 +5119,7 @@ AcDbMText
   1
 G12\P
   7
-
+STANDARD
 210
 0
 220
@@ -5165,7 +5165,7 @@ AcDbMText
   1
 G16\P
   7
-
+STANDARD
 210
 0
 220
@@ -5211,7 +5211,7 @@ AcDbMText
   1
 G20\P
   7
-
+STANDARD
 210
 0
 220
@@ -5257,7 +5257,7 @@ AcDbMText
   1
 G21\P
   7
-
+STANDARD
 210
 0
 220
@@ -5303,7 +5303,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -5349,7 +5349,7 @@ AcDbMText
   1
 G26
   7
-
+STANDARD
 210
 0
 220
@@ -5395,7 +5395,7 @@ AcDbMText
   1
 G19
   7
-
+STANDARD
 210
 0
 220
@@ -5441,7 +5441,7 @@ AcDbMText
   1
 G13
   7
-
+STANDARD
 210
 0
 220
@@ -5487,7 +5487,7 @@ AcDbMText
   1
 G06
   7
-
+STANDARD
 210
 0
 220
@@ -5533,7 +5533,7 @@ AcDbMText
   1
 G05
   7
-
+STANDARD
 210
 0
 220
@@ -5579,7 +5579,7 @@ AcDbMText
   1
 IDSD
   7
-
+STANDARD
 210
 0
 220
@@ -5625,7 +5625,7 @@ AcDbMText
   1
 IDSC
   7
-
+STANDARD
 210
 0
 220
@@ -5671,7 +5671,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -5717,7 +5717,7 @@ AcDbMText
   1
 G11
   7
-
+STANDARD
 210
 0
 220
@@ -5763,7 +5763,7 @@ AcDbMText
   1
 G09
   7
-
+STANDARD
 210
 0
 220
@@ -5809,7 +5809,7 @@ AcDbMText
   1
 G10
   7
-
+STANDARD
 210
 0
 220
@@ -5855,7 +5855,7 @@ AcDbMText
   1
 3V3
   7
-
+STANDARD
 210
 0
 220
@@ -5901,7 +5901,7 @@ AcDbMText
   1
 G22
   7
-
+STANDARD
 210
 0
 220
@@ -5947,7 +5947,7 @@ AcDbMText
   1
 G27
   7
-
+STANDARD
 210
 0
 220
@@ -5993,7 +5993,7 @@ AcDbMText
   1
 G17
   7
-
+STANDARD
 210
 0
 220
@@ -6039,7 +6039,7 @@ AcDbMText
   1
 MOSI
   7
-
+STANDARD
 210
 0
 220
@@ -6085,7 +6085,7 @@ AcDbMText
   1
 MISO
   7
-
+STANDARD
 210
 0
 220
@@ -6131,7 +6131,7 @@ AcDbMText
   1
 SCLK
   7
-
+STANDARD
 210
 0
 220
@@ -6177,7 +6177,7 @@ AcDbMText
   1
 GND
   7
-
+STANDARD
 210
 0
 220
@@ -6223,7 +6223,7 @@ AcDbMText
   1
 G04
   7
-
+STANDARD
 210
 0
 220
@@ -6269,7 +6269,7 @@ AcDbMText
   1
 G03
   7
-
+STANDARD
 210
 0
 220
@@ -6315,7 +6315,7 @@ AcDbMText
   1
 G02
   7
-
+STANDARD
 210
 0
 220
@@ -6361,7 +6361,7 @@ AcDbMText
   1
 3V3
   7
-
+STANDARD
 210
 0
 220
@@ -6407,7 +6407,7 @@ AcDbMText
   1
 SDA1
   7
-
+STANDARD
 210
 0
 220
@@ -6453,7 +6453,7 @@ AcDbMText
   1
 SCL1
   7
-
+STANDARD
 210
 0
 220
@@ -6499,7 +6499,7 @@ AcDbMText
   1
 CLK0
   7
-
+STANDARD
 210
 0
 220
